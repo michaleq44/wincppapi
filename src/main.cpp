@@ -21,3 +21,4 @@ const int LIGHTRED = 12;
 const int LIGHTMAGENTA = 13;
 const int YELLOW = 14;
 const int WHITE = 15;
+const int WITAJ_PRZYBYSZU = 441;
