@@ -21,4 +21,4 @@ jobs:
           make
     - uses: actions/checkout@v4
     - name: make
-      run: make
+      run: make gitmake.mk
