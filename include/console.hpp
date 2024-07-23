@@ -109,6 +109,8 @@ extern __declspec(dllexport) const int LIGHTMAGENTA;
 extern __declspec(dllexport) const int YELLOW;
 extern __declspec(dllexport) const int WHITE;
 
+extern __declspec(dllexport) const int WITAJ_PRZYBYSZU;
+
 // for including
 #else
 
@@ -155,4 +157,6 @@ extern __declspec(dllimport) const int LIGHTRED;
 extern __declspec(dllimport) const int LIGHTMAGENTA;
 extern __declspec(dllimport) const int YELLOW;
 extern __declspec(dllimport) const int WHITE;
+
+extern __declspec(dllimport) const int WITAJ_PRZYBYSZU;
 #endif
