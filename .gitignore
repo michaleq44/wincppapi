@@ -1,5 +1,9 @@
 *.exe
-src/test.cpp
+test.cpp
 Makefile
 *.lib
-src/test.cpp
+*test.cpp
+*/*.exe
+*/test.cpp
+*/*.lib
+bin
