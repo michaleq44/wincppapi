@@ -8,6 +8,3 @@ test:
 	rm test.o
 run:
 	bin/test.exe
-clean:
-	rm bin/*
-	rm lib/*

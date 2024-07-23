@@ -24,7 +24,9 @@ jobs:
       run: md bin
     - name: dir2
       run: md lib
-    - name: clean
-      run: make clean
     - name: make
       run: make -B
+    - name: clean1
+      run: del bin\wincppapi.dll
+    - name: clean2
+      run: del lib\libwincppapi.lib
