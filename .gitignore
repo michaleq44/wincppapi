@@ -1,6 +1,5 @@
 *.exe
 test.cpp
-Makefile
 *.lib
 *test.cpp
 */*.exe

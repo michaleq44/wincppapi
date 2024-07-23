@@ -7,7 +7,7 @@
 using namespace std;
 
 
-// for dll building
+// for dll building.
 #ifdef BUILD
 __declspec(dllexport) typedef struct keyState {
     bool pressed;
