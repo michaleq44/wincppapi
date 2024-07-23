@@ -20,6 +20,10 @@ jobs:
          # mingw-w64-x86_64-gcc
          # make
     - uses: actions/checkout@v4
+    - name: dir1
+      run: md bin
+    - name: dir2
+      run: md lib
     - name: clean
       run: make clean
     - name: make
