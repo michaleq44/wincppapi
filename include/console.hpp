@@ -6,6 +6,8 @@
 
 using namespace std;
 
+
+// for dll building
 #ifdef BUILD
 __declspec(dllexport) typedef struct keyState {
     bool pressed;
@@ -107,7 +109,7 @@ extern __declspec(dllexport) const int LIGHTMAGENTA;
 extern __declspec(dllexport) const int YELLOW;
 extern __declspec(dllexport) const int WHITE;
 
-
+// for including
 #else
 
 __declspec(dllimport) typedef struct keyState {
